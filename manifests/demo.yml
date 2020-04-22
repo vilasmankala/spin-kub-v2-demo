@@ -47,7 +47,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: spinnaker-demo
+  name: spinnaker-dem
   namespace: default
 spec:
   selector:
