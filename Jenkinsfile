@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("vilasmankala/nodeapp")
+        app = docker.build("vilasmankala/spinkub")
     }
 
     stage('Test image') {
