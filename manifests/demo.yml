@@ -9,7 +9,7 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spinnaker-d
+  name: spinnaker-demo
   namespace: default
   labels:
     source: demo
@@ -43,7 +43,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: spinnaker-demo
+  name: spinnaker-d
   namespace: default
 spec:
   selector:
